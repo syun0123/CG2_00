@@ -5,7 +5,7 @@ struct VertexShaderOutput
     
 struct VertexShaderInput
 {
-    float4 position : POSITION;
+    float4 position : POSITION0;
 };
 
 VertexShaderOutput main(VertexShaderInput input)
@@ -14,7 +14,8 @@ VertexShaderOutput main(VertexShaderInput input)
     output.position = input.position;
     return output;
 }
-struct VertexShederInput
-{
-    float4 position : POSITION;
-};
+
+//struct VertexShederInput
+//{
+//    float4 position : POSITION;
+//};

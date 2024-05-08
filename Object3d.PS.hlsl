@@ -1,6 +1,6 @@
 struct PixelShaderInput
 {
-    float2 texcoord : TEXCOORD0; 
+    float4 texcoord : TEXCOORD0; 
 };
 
 struct PixelShaderOutput
